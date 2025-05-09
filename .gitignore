@@ -112,3 +112,14 @@ dist
 
 #Mac
 .DS_Store
+
+# Terraform
+**/.terraform/
+*.tfstate
+*.tfstate.backup
+crash.log
+*.tfvars
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
