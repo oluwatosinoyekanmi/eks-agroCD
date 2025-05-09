@@ -7,7 +7,12 @@ terraform {
   }
 }
 
-# Configure the AWS Provider
+# # Configure the AWS Provider
+# provider "aws" {
+#   region = "ap-south-1"
+# }
+
 provider "aws" {
-  region = "ap-south-1"
+  region  = "us-east-1"
+  profile = "AdministratorAccess-442426875219"
 }
